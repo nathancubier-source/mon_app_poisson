@@ -212,7 +212,7 @@ export default function App() {
         </div>
 
         {!selected && (
-          <div className="text-center animate-in fade-in slide-in-from-bottom-2">
+          <div className="text-center animate-pulse slide-in-from-bottom-2">
             <p className="text-slate-400 text-xs font-bold uppercase tracking-[0.3em] mb-1">Cible en vue</p>
             <h2 className="text-2xl font-black italic text-white">Identification ?</h2>
           </div>
@@ -238,7 +238,7 @@ export default function App() {
                 <div className="flex flex-col">
                    <span className="uppercase text-lg italic tracking-tight">{fish.name}</span>
                    {selected && fish.id === currentFish.id && (
-                       <div className="flex items-center gap-1 mt-1 text-emerald-200 text-xs font-bold animate-in fade-in">
+                       <div className="flex items-center gap-1 mt-1 text-emerald-200 text-xs font-bold animate-pulse">
                            <Ruler size={12} /> Maille : {fish.size}
                        </div>
                    )}
