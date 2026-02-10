@@ -5,7 +5,7 @@ import { Trophy, Fish, Check, X, ArrowRight, Anchor, Ruler, Camera, Info, Lightb
 const FISH_BASE_DATA = [
   { 
     id: 'bar', 
-    name: 'Bar (Loup)', 
+    name: 'Bar (Loup)2', 
     scientific: 'Dicentrarchus labrax',
     size: '42 cm',
     desc: 'Argenté, fuselé, opercule piquant.', 
