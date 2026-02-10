@@ -26,10 +26,7 @@ const FISH_BASE_DATA = [
     scientific: 'Sparus aurata',
     size: '23 cm',
     desc: 'Sourcil doré et tache noire sur l\'ouïe.', 
-    imageUrls: ["https://www.fishipedia.fr/wp-content/uploads/2019/06/Sparus-aurata-Daurade-Costa-Smeralda-Sardaigne-6102_00001.jpg
-", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQzvK0UkhFnzJPAffJPckEiQAHNWagC3o3A&s
-", "https://www.normandie-appats.com/medias/Articles/comment_mange_la_daurade/1.jpg
-"],
+    imageUrls: ["https://www.fishipedia.fr/wp-content/uploads/2019/06/Sparus-aurata-Daurade-Costa-Smeralda-Sardaigne-6102_00001.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQzvK0UkhFnzJPAffJPckEiQAHNWagC3o3A&s", "https://www.normandie-appats.com/medias/Articles/comment_mange_la_daurade/1.jpg",],
     tips: [
       "Un chasseur éthique tire rarement en dessous de 30-35cm.",
       "Elle broie les coquillages : cherche-la près des parcs à huîtres.",
