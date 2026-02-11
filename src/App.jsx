@@ -27,10 +27,10 @@ const FISH_BASE_DATA = [
     scientific: 'Sparus aurata',
     size: '23 cm',
     desc: 'Sourcil doré et tache noire sur l\'ouïe.', 
-    imageUrls: ["https://www.fishipedia.fr/wp-content/uploads/2019/06/Sparus-aurata-Daurade-Costa-Smeralda-Sardaigne-6102_00001.jpg
-", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQzvK0UkhFnzJPAffJPckEiQAHNWagC3o3A&s
-", "https://www.normandie-appats.com/medias/Articles/comment_mange_la_daurade/1.jpg
-"],
+    imageUrls: ["https://www.fishipedia.fr/wp-content/uploads/2019/06/Sparus-aurata-Daurade-Costa-Smeralda-Sardaigne-6102_00001.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQzvK0UkhFnzJPAffJPckEiQAHNWagC3o3A&s",
+                "https://www.normandie-appats.com/medias/Articles/comment_mange_la_daurade/1.jpg"
+               ],
     tips: [
       "Un chasseur éthique tire rarement en dessous de 30-35cm.",
       "Elle broie les coquillages : cherche-la près des parcs à huîtres.",
@@ -44,9 +44,10 @@ const FISH_BASE_DATA = [
     scientific: 'Diplodus sargus',
     size: '25 cm',
     desc: 'Rayures verticales et tache caudale.', 
-    imageUrls: ["https://upload.wikimedia.org/wikipedia/commons/b/ba/Diplodus_sargus_01.jpg
-", "https://www.fishipedia.fr/wp-content/uploads/2019/06/Diplodus_sargus_sargus_TMe_Esp_SanJose_CalaHiguera_9928-725x483.jpg
-", "https://www.lechasseursousmarin.com/wp-content/uploads/2022/10/photo-bandeau-sar-commun-nicolas-barraque-scaled.jpg"],
+    imageUrls: ["https://upload.wikimedia.org/wikipedia/commons/b/ba/Diplodus_sargus_01.jpg",
+                "https://www.fishipedia.fr/wp-content/uploads/2019/06/Diplodus_sargus_sargus_TMe_Esp_SanJose_CalaHiguera_9928-725x483.jpg",
+                "https://www.lechasseursousmarin.com/wp-content/uploads/2022/10/photo-bandeau-sar-commun-nicolas-barraque-scaled.jpg"
+               ],
     tips: [
       "Failles & Zones agitées : Il adore les trous sombres et le ressac.",
       "Il rentre vite à trou : Il faut être très rapide pour le tirer.",
@@ -74,10 +75,10 @@ const FISH_BASE_DATA = [
     scientific: 'Labrus bergylta',
     size: 'Conseillé 30 cm',
     desc: 'Robuste, lèvres épaisses, couleurs variables.', 
-    imageUrls: ["https://www.lechasseursousmarin.com/wp-content/uploads/2022/06/photo-bandeau-vieille-commune-marc-andre-mounier.jpg
-", "https://upload.wikimedia.org/wikipedia/commons/6/6d/Labrus_bergylta_Brest.jpg
-", "https://doriscdn.ffessm.fr/var/doris/storage/images/images/grande-vieille-mais-curieuse-19972/172785-1-fre-FR/Labrus_bergylta_D.Blin011_image1200.jpg
-"],
+    imageUrls: ["https://www.lechasseursousmarin.com/wp-content/uploads/2022/06/photo-bandeau-vieille-commune-marc-andre-mounier.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/6/6d/Labrus_bergylta_Brest.jpg",
+                "https://doriscdn.ffessm.fr/var/doris/storage/images/images/grande-vieille-mais-curieuse-19972/172785-1-fre-FR/Labrus_bergylta_D.Blin011_image1200.jpg"]
+    ,
     tips: [
       "Elle adore se cacher dans les failles ou les laminaires.",
       "Très curieuse : elle finit souvent par ressortir la tête du trou.",
@@ -91,10 +92,10 @@ const FISH_BASE_DATA = [
     scientific: 'Mugil cephalus',
     size: '30 cm',
     desc: 'Tête large et plate, grosses écailles.', 
-    imageUrls: ["https://www.francebleu.fr/pikapi/images/13363818-a4b2-46c9-bbce-5ba0d1a0540e/1200x680?webp=false
-", "https://www.fishipedia.fr/wp-content/uploads/2022/08/Chelon-auratus-2-scaled.jpg
-", "https://www.lechasseursousmarin.com/wp-content/uploads/2024/09/photo-bandeau-mulet-dore-credit-photo-claude-mayet-scaled.jpg?v=1726166058
-"],
+    imageUrls: ["https://www.francebleu.fr/pikapi/images/13363818-a4b2-46c9-bbce-5ba0d1a0540e/1200x680?webp=false",
+                "https://www.fishipedia.fr/wp-content/uploads/2022/08/Chelon-auratus-2-scaled.jpg",
+                "https://www.lechasseursousmarin.com/wp-content/uploads/2024/09/photo-bandeau-mulet-dore-credit-photo-claude-mayet-scaled.jpg?v=1726166058"
+               ],
     tips: [
       "Il circule souvent en bancs compacts près de la surface.",
       "Idéal pour s'entraîner au tir (moins farouche).",
@@ -121,10 +122,10 @@ const FISH_BASE_DATA = [
     scientific: 'Scyliorhinus canicula',
     size: 'Conseillé ~50 cm',
     desc: 'Petit requin de fond, peau tachetée.', 
-    imageUrls: ["https://eleau.org/wp-content/uploads/2018/06/petite-roussette-1.jpg
-", "https://images-ca-1-0-1-eu.s3-eu-west-1.amazonaws.com/photos/original/2112/roussette-produit-AdobeStock_310276255.jpeg
-", "https://www.notrenature.be/media/cache/strip/uploads/media/62eba42d0fae1/shutterstock-154993202.jpg
-"],
+    imageUrls: ["https://eleau.org/wp-content/uploads/2018/06/petite-roussette-1.jpg",
+                "https://images-ca-1-0-1-eu.s3-eu-west-1.amazonaws.com/photos/original/2112/roussette-produit-AdobeStock_310276255.jpeg",
+                "https://www.notrenature.be/media/cache/strip/uploads/media/62eba42d0fae1/shutterstock-154993202.jpg"
+               ],
     tips: [
       "Sable & Dalles : Souvent posée ou dormant sous une roche.",
       "Elle ne bouge pas : tu peux l'observer de très près.",
