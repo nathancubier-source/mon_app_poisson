@@ -59,7 +59,7 @@ const FISH_BASE_DATA = [
     id: 'lieu', 
     name: 'Lieu Jaune', 
     scientific: 'Pollachius pollachius',
-    size: '30 cm',
+    size: '42 cm',
     desc: 'Ligne latérale courbe, mâchoire inférieure saillante.', 
     imageUrls: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_jqSx1sbreFqvwIJkort8beinGfiLN7M06g&s",
                 "https://upload.wikimedia.org/wikipedia/commons/8/8e/Pollachius_pollachius_aquarium.jpg",
