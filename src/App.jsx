@@ -150,7 +150,8 @@ const FISH_BASE_DATA = [
     desc: 'Dos zébré bleu-vert, corps fuselé, nageur très rapide.', 
     imageUrls: ["https://doriscdn.ffessm.fr/var/doris/storage/images/images/scomber_colias-scombrus-thme2013/4919030-1-fre-FR/Scomber_colias-scombrus-thme2013_image600.jpg",
                 "https://www.fishipedia.fr/wp-content/uploads/2020/06/Scomber-scombrus-2-725x483.jpg",
-               "https://lh6.googleusercontent.com/proxy/Jw5jZj4ft8QjPPxgc_6tYWE1FyNzlOE0h_DXjKF-U7PZhhvtNL0QSD4Cbc7sOPUs-GOetWSmUeuq4OWYUz2YpVdMG1vUFY5sFYXT4NoSEM6wpEck31PictegnadzxXw8xtoVJo15huGFbC4"],
+               "https://lh6.googleusercontent.com/proxy/Jw5jZj4ft8QjPPxgc_6tYWE1FyNzlOE0h_DXjKF-U7PZhhvtNL0QSD4Cbc7sOPUs-GOetWSmUeuq4OWYUz2YpVdMG1vUFY5sFYXT4NoSEM6wpEck31PictegnadzxXw8xtoVJo15huGFbC4"
+               ],
     tips: [
       "Observation : Cherche les bouillonnements ou les oiseaux, signes d'un banc en chasse.",
       "Approche : Il est craintif, préfère une indienne lente plutôt que de foncer dans le tas.",
@@ -169,7 +170,8 @@ const FISH_BASE_DATA = [
                "https://www.fishipedia.fr/wp-content/uploads/2024/02/Conger-conger-725x483.jpeg",
                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDR1FPYJFnSBFTnJq11yTPX7Q2gDwbx7WOBw&s",
                "https://bioobs.fr/blog/src/mes_photos/user_1923/030209C1-9EC7-0C43-F4AB-AF7C94C58E22/00003.jpg",
-               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmw1VYaJSK-qkY84PwYL7zSwAcVGZPsdkj9A&s"],
+               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmw1VYaJSK-qkY84PwYL7zSwAcVGZPsdkj9A&s"
+               ],
     tips: [
       "Matériel : Utilise une flèche robuste et un moulinet pour contrer sa force de torsion.",
       "Tir de tête : Vise impérativement entre les deux yeux pour l'assommer immédiatement.",
@@ -186,14 +188,16 @@ const FISH_BASE_DATA = [
     imageUrls: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrWdHQ5aixfK0vsmANU_V_4IxVlQkmjTQVhw&s",
                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJRztpwYwsndABg7mozpl8zCXDF8U8SzpeQ&s",
                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJnFsWy-mC72_uh8St0DXzks58dNKrUIwVw&s",
-               "https://doriscdn.ffessm.fr/var/doris/storage/images/images/belle-taille-27711/234697-1-fre-FR/sphyraena_barracuda-vl11_image600.jpg"],
+               "https://doriscdn.ffessm.fr/var/doris/storage/images/images/belle-taille-27711/234697-1-fre-FR/sphyraena_barracuda-vl11_image600.jpg"
+               ],
     tips: [
       "Zone : On le trouve surtout en fin d'été sur les pointes rocheuses exposées au courant.",
       "Technique : Très curieux, l'agachon immobile au fond le fera venir à toi.",
       "Tir : Sa peau est fragile, vise derrière les ouïes pour assurer une bonne tenue.",
       "Dents : Très acérées, utilise une pince pour décrocher ta flèche en toute sécurité."
     ]
-  },{ 
+  },
+  { 
     id: 'homard', 
     name: 'Homard Européen', 
     scientific: 'Homarus gammarus',
@@ -202,7 +206,8 @@ const FISH_BASE_DATA = [
     imageUrls: ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/KreeftbijDenOsse.jpg/1280px-KreeftbijDenOsse.jpg",
                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdQQVyFEdpYGNSAxiTG8Hho1OYILWQfKlXiQ&s",
                "https://www.fishipedia.it/wp-content/uploads/2021/03/Homarus-gammarus-725x483.jpg",
-               "https://www.fishipedia.it/wp-content/uploads/2022/06/Homarus-gammarus-2.jpg"],
+               "https://www.fishipedia.it/wp-content/uploads/2022/06/Homarus-gammarus-2.jpg"
+               ],
     tips: [
       "Repérage : Cherche les antennes qui dépassent. Il sort souvent à l'entrée du trou à l'étale.",
       "Technique : Utilise une baguette pour gratouiller derrière lui, il avancera vers la sortie par réflexe.",
@@ -219,7 +224,8 @@ const FISH_BASE_DATA = [
     imageUrls: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw_xr3SVECwQcLX3DD36npEhw5D-V7JbAefg&s",
                "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_majsqu.jpg",
                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQHEJs3OBV-XSA8RDjggXnORJLu-RO-KKhCA&s",
-               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPO_o3V8np9s75nieoiHV9OeljiqBbEDF3XA&s"],
+               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPO_o3V8np9s75nieoiHV9OeljiqBbEDF3XA&s"
+               ],
     tips: [
       "Camouflage : Repère les formes bombées 'poilues' au milieu des algues laminaires.",
       "Saison : Le pic est d'avril à juin quand elles remontent par milliers vers la côte.",
@@ -236,14 +242,16 @@ const FISH_BASE_DATA = [
     imageUrls: ["https://doriscdn.ffessm.fr/var/doris/storage/images/images/sous-un-surplomb-16939/148521-1-fre-FR/cancer_pagurus-71_image600.jpg",
                "https://www.mer-littoral.org/24/photos/cancer-pagurus-0m.jpg",
                "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_canpag.jpg",
-               "https://images.reeflifesurvey.com/1/species_17_686343f958d8c.w1000.h666.jpg"],
+               "https://images.reeflifesurvey.com/1/species_17_686343f958d8c.w1000.h666.jpg"
+               ],
     tips: [
       "Nouvelle Maille : Attention, la taille minimale est passée de 14 à 15 cm !",
       "Pression : S'il t'attrape, pose-le au fond. Il finira par lâcher prise pour s'enfuir.",
       "Qualité : Appuie sur le dessous, s'il est mou, il vient de muer et contient peu de chair. Relâche-le.",
       "Saisie : Place tes doigts à l'arrière de la carapace, les pinces ne peuvent pas t'atteindre là."
     ]
-  },{ 
+  },
+  { 
     id: 'grondin', 
     name: 'Grondin Rouge', 
     scientific: 'Chelidonichthys lucerna',
@@ -252,9 +260,10 @@ const FISH_BASE_DATA = [
     imageUrls: ["https://www.fishipedia.fr/wp-content/uploads/2020/06/Chelidonichthys-lucerna-scaled.jpg",
                "https://inaturalist-open-data.s3.amazonaws.com/photos/108401984/original.jpeg",
                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBap7_80RRLRfXfHDni4YZU2-xHXkusf53Ag&s",
-               "-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTq2IxVF9liGlyK29KUn-3JQiwpE047w0jkw&s",
-               "https://bioobs.fr/blog/src/mes_photos/user_1877/67B01ED8-2258-B52A-379C-84B393EF8E3C/00011.jpg"
-               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9SlnWT3OCH5loz6p_k0fL7Gzv6nHaF4K9HQ&s"],
+               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTq2IxVF9liGlyK29KUn-3JQiwpE047w0jkw&s",
+               "https://bioobs.fr/blog/src/mes_photos/user_1877/67B01ED8-2258-B52A-379C-84B393EF8E3C/00011.jpg",
+               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9SlnWT3OCH5loz6p_k0fL7Gzv6nHaF4K9HQ&s"
+               ],
     tips: [
       "Habitat : On le trouve sur le sable ou le gravier en lisière de roche.",
       "Comportement : Il se croit bien camouflé et ne bouge pas si l'approche est douce.",
@@ -273,7 +282,8 @@ const FISH_BASE_DATA = [
                "https://www.mer-littoral.org/34/photos/labrus-mixtus-0m.jpg",
                "https://upload.wikimedia.org/wikipedia/commons/d/d4/Labrus_mixtus_2_by_Line1.jpg",
                "https://www.fishipedia.fr/wp-content/uploads/2021/05/Labrus-mixtus-female-725x483.jpg",
-               "https://upload.wikimedia.org/wikipedia/commons/e/ec/Labrus_mixtus_%28bimaculatus%29F_-_Stefano_Guerrieri.jpg"],
+               "https://upload.wikimedia.org/wikipedia/commons/e/ec/Labrus_mixtus_%28bimaculatus%29F_-_Stefano_Guerrieri.jpg"
+               ],
     tips: [
       "Dimorphisme : Le mâle est bleu et orange, la femelle est orange avec 2 taches noires.",
       "Profondeur : Elle vit souvent un peu plus bas que la vieille commune (> 10m).",
@@ -291,7 +301,8 @@ const FISH_BASE_DATA = [
                "https://www.mer-littoral.org/34/photos/scophthalmus-maximus-0m.jpg",
                "https://static.inaturalist.org/photos/59056007/medium.jpeg",
                "https://upload.wikimedia.org/wikipedia/commons/0/0e/Scophthalmidae_Scophthalmus_maximus_2.jpg",
-               "https://www.demonsunglasses.com/cdn/shop/articles/complete-guide-to-turbot-fishing-techniques-equipment-seasons-and-tips_82418b5a-8855-4ec2-b950-b74332788ebd_large.jpg?v=1761120250"],
+               "https://www.demonsunglasses.com/cdn/shop/articles/complete-guide-to-turbot-fishing-techniques-equipment-seasons-and-tips_82418b5a-8855-4ec2-b950-b74332788ebd_large.jpg?v=1761120250"
+               ],
     tips: [
       "Repérage : Cherche uniquement le contour circulaire ou les deux yeux sur le sable.",
       "Poste : Il adore les zones de fort courant (passes) pour guetter ses proies.",
