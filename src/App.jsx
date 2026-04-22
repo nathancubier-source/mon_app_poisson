@@ -62,7 +62,7 @@ const FISH_BASE_DATA = [
       "Sa chair est excellente mais doit être vidée rapidement.",
       "Il possède une tache noire très marquée sur le pédoncule caudal (la base de la queue). Elle fait presque tout le tour.",
       "Il a 8 à 9 rayures verticales sombres et fines sur les flancs. Elles s'estompent parfois chez les gros individus, mais restent visibles.",
-      "Son corps est très haut et "comprimé" latéralement. Il est plus "rond" que la dorade."
+      "Son corps est très haut et comprimé latéralement. Il est plus rond que la dorade."
     ]
   },
   { 
