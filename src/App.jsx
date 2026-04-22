@@ -324,8 +324,8 @@ const FISH_BASE_DATA = [
     ]
   },
   { 
-    id: 'L'Orphie', 
-    name: 'L'Orphie (Aiguillette)', 
+    id: 'LOrphie', 
+    name: 'L Orphie (Aiguillette)', 
     scientific: 'Belone belone',
     size: '30 cm',
     desc: '', 
