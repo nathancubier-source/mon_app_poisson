@@ -7,12 +7,15 @@ const FISH_BASE_DATA = [
     id: 'bar', 
     name: 'Bar (Loup)', 
     scientific: 'Dicentrarchus labrax',
-    size: '42 cm',
+    size: '42 cm;Du 1er février au 31 mars;2 spécimens',
     desc: 'Argenté, fuselé, opercule piquant.', 
     imageUrls: [
       "https://www.mer-littoral.org/34/photos/dicentrarchus-labrax-0m.jpg", // Lien Image 1 (ex: Profil)
       "https://www.mer-littoral.org/34/photos/dicentrarchus-labrax-0m.jpg", // Lien Image 2 (ex: Dans les algues)
-      "https://www.mer-littoral.org/34/photos/dicentrarchus-labrax-0m.jpg"  // Lien Image 3 (ex: Vue de face)
+      "https://www.mer-littoral.org/34/photos/dicentrarchus-labrax-0m.jpg",  // Lien Image 3 (ex: Vue de face)
+      "https://www.fishipedia.es/wp-content/uploads/2020/07/Dicentrarchus-labrax-20-1-725x483.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHdWZChs22oM8vfOYPIa8S-DnCnbj6cCK_7A&s",
+      "https://ekladata.com/UdkbnayEwb6sLW63x_WR6bpKn8s/Cap-Rousset-22-12-2018-loups-low.jpg"
     ],
     tips: [
       "Écume & Bordure : On le trouve dans très peu d'eau (1-2m) là où les vagues cassent.",
@@ -29,7 +32,11 @@ const FISH_BASE_DATA = [
     desc: 'Sourcil doré et tache noire sur l\'ouïe.', 
     imageUrls: ["https://www.fishipedia.fr/wp-content/uploads/2019/06/Sparus-aurata-Daurade-Costa-Smeralda-Sardaigne-6102_00001.jpg",
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQzvK0UkhFnzJPAffJPckEiQAHNWagC3o3A&s",
-                "https://www.normandie-appats.com/medias/Articles/comment_mange_la_daurade/1.jpg"
+                "https://www.normandie-appats.com/medias/Articles/comment_mange_la_daurade/1.jpg",
+                "https://eleau.org/wp-content/uploads/2018/08/dorade-royale-sparus-auratus-bordermaker.jpg",
+                "https://inaturalist-open-data.s3.amazonaws.com/photos/154812228/original.jpeg",
+                "https://www.aquaportail.com/aquabdd/photos/sparus-aurata.webp",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sparus_aurata_-_Goldbrasse_167478208.jpg/1280px-Sparus_aurata_-_Goldbrasse_167478208.jpg"
                ],
     tips: [
       "Un chasseur éthique tire rarement en dessous de 30-35cm.",
@@ -52,14 +59,17 @@ const FISH_BASE_DATA = [
       "Failles & Zones agitées : Il adore les trous sombres et le ressac.",
       "Il rentre vite à trou : Il faut être très rapide pour le tirer.",
       "Le 'pépère' (gros sar) est souvent seul.",
-      "Sa chair est excellente mais doit être vidée rapidement."
+      "Sa chair est excellente mais doit être vidée rapidement.",
+      "Il possède une tache noire très marquée sur le pédoncule caudal (la base de la queue). Elle fait presque tout le tour.",
+      "Il a 8 à 9 rayures verticales sombres et fines sur les flancs. Elles s'estompent parfois chez les gros individus, mais restent visibles.",
+      "Son corps est très haut et "comprimé" latéralement. Il est plus "rond" que la dorade."
     ]
   },
   { 
     id: 'lieu', 
     name: 'Lieu Jaune', 
     scientific: 'Pollachius pollachius',
-    size: '42 cm',
+    size: '42 cm;Du 1er janvier au 30 avril;2 spécimens ',
     desc: 'Ligne latérale courbe, mâchoire inférieure saillante.', 
     imageUrls: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_jqSx1sbreFqvwIJkort8beinGfiLN7M06g&s",
                 "https://upload.wikimedia.org/wikipedia/commons/8/8e/Pollachius_pollachius_aquarium.jpg",
@@ -104,7 +114,9 @@ const FISH_BASE_DATA = [
       "Il circule souvent en bancs compacts près de la surface.",
       "Idéal pour s'entraîner au tir (moins farouche).",
       "Regarde sa bouche : elle est petite et plate.",
-      "Excellent fumé ou en carpaccio."
+      "Excellent fumé ou en carpaccio.",
+      "Ils se déplacent souvent en groupes. Si tu en vois un passer, reste immobile, le reste du banc suit généralement derrière.",
+      "Longe les digues ou les rochers très près du bord (dans 1 mètre d'eau) ; les mulets sont souvent juste là, dans l'écume."
     ]
   },
   { 
@@ -123,7 +135,9 @@ const FISH_BASE_DATA = [
     tips: [
       "Le maître du camouflage : on ne voit souvent que les yeux.",
       "Elle démarre en ondulant. Tire devant la tête.",
-      "Cherche les empreintes ou les bosses dans le sable."
+      "Cherche les empreintes ou les bosses dans le sable.",
+      "Elle est beaucoup plus allongée et étroite que la plie. Ses bords sont très arrondis (frange de nageoires).",
+      "Elle prend exactement la couleur du sable ou du gravier. Regarde bien les zones où le sable fait des petites bosses inhabituelles."
     ]
   },
   { 
@@ -146,7 +160,7 @@ const FISH_BASE_DATA = [
     id: 'maquereau', 
     name: 'Maquereau', 
     scientific: 'Scomber scombrus',
-    size: '20 cm',
+    size: '20 cm;3 spécimens',
     desc: 'Dos zébré bleu-vert, corps fuselé, nageur très rapide.', 
     imageUrls: ["https://doriscdn.ffessm.fr/var/doris/storage/images/images/scomber_colias-scombrus-thme2013/4919030-1-fre-FR/Scomber_colias-scombrus-thme2013_image600.jpg",
                 "https://www.fishipedia.fr/wp-content/uploads/2020/06/Scomber-scombrus-2-725x483.jpg",
@@ -219,7 +233,7 @@ const FISH_BASE_DATA = [
     id: 'araignee', 
     name: 'Araignée de Mer', 
     scientific: 'Maja brachydactyla',
-    size: '12 cm',
+    size: '12 cm;6 spécimens',
     desc: 'Corps bombé, couverte d\'algues, pattes pointues. Très commune au printemps.', 
     imageUrls: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw_xr3SVECwQcLX3DD36npEhw5D-V7JbAefg&s",
                "https://www.marlin.ac.uk/assets/images/marlin/species/web/o_majsqu.jpg",
@@ -289,6 +303,79 @@ const FISH_BASE_DATA = [
       "Profondeur : Elle vit souvent un peu plus bas que la vieille commune (> 10m).",
       "Éthique : Le mâle bleu est essentiel à la colonie (protogynie), évite de trop le prélever.",
       "Réflexe : Très farouche, elle s'enfarague au moindre signe de danger."
+    ]
+  },
+  { 
+    id: 'La Seiche', 
+    name: 'La Seiche (Margate)', 
+    scientific: 'Sepia officinalis',
+    size: 'Conseillé 28 cm',
+    desc: '', 
+    imageUrls: ["https://www.comptoirdelamer.fr/wp-content/uploads/2018/06/morgate.jpg",
+               "https://doriscdn.ffessm.fr/var/doris/storage/images/images/seiche-adulte-17085/149689-1-fre-FR/sepia-officinalis-11_image300.jpg",
+               "https://doriscdn.ffessm.fr/var/doris/storage/images/images/seiche-adulte-17085/149689-1-fre-FR/sepia-officinalis-11_image300.jpg",
+               "https://dis-leur.fr/wp-content/uploads/2021/03/Seiche2_EC-300x225.jpg"
+               ],
+    tips: [
+      "Elle change de couleur instantanément. Cherche une forme ovale posée sur le sable ou les herbiers ; ses deux yeux sont souvent le seul indice.",
+      "Tu peux l'approcher de très près, elle est assez placide. Tire bien entre les deux yeux pour un "séchage" immédiat.",
+      "Une fois fléchée, elle va lâcher un nuage d'encre noir. Garde-la à distance de ta combinaison pour ne pas la tacher durablement.",
+      "Nettoie-la en mer pour éviter d'en mettre partout chez toi. Le "blanc" de seiche est délicieux en persillade."
+    ]
+  },
+  { 
+    id: 'L'Orphie', 
+    name: 'L'Orphie (Aiguillette)', 
+    scientific: 'Belone belone',
+    size: '30 cm',
+    desc: '', 
+    imageUrls: ["https://lebru.sc/wp-content/uploads/2025/04/orphie-le-brusc.jpg",
+               "https://www.normandie-appats.com/medias/Articles/2021/20211001_peche_des_orphies_avec_laureen_dudit/2.jpeg",
+               "https://www.fishipedia.fr/wp-content/uploads/2019/06/Belone_belone_TMe_Esp_SanJose_CalaHiguera_9883.jpg",
+               "https://comptoirdespecheurs.com/images/photo_article/big_20151011113252_9q.jpg"
+               ],
+    tips: [
+      "Elle nage dans les 50 premiers centimètres d'eau. Tu la verras souvent briller comme un éclair d'argent.",
+      "C'est une cible très fine. C'est l'exercice parfait pour apprendre à ajuster ton fusil rapidement.",
+      "Ne panique pas en la mangeant, ses arêtes sont naturellement vert-bleu fluorescent. C'est tout à fait comestible et très bon.",
+      "Puisqu'elle est en surface, elle te voit arriver de loin. Fais des mouvements de palmage très souples pour ne pas faire de bruit d'éclaboussure."
+    ]
+  },
+  { 
+    id: 'Le Plie', 
+    name: 'Le Plie (Carrelet)', 
+    scientific: 'Pleuronectes platessa',
+    size: '27 cm',
+    desc: '', 
+    imageUrls: ["https://rssm.asso.fr/wp-content/uploads/2012/07/plie3.jpg",
+               "https://rssm.asso.fr/wp-content/uploads/2012/07/plie03.jpg",
+               "https://www.opalesurfcasting.net/IMG/046.jpg",
+               "https://www.chtipecheur.com/wp-content/uploads/2022/06/2007-11-21-155604-Boulogne_-_Nausicaa-1.jpg",
+               "https://www.fishipedia.fr/wp-content/uploads/2023/11/Pleuronectes-platessa-725x483.jpg"
+               ],
+    tips: [
+      "Le poisson plat par excellence que tu croiseras sur les grandes étendues de sable entre deux roches",
+      "Elle se reconnaît facilement à ses petites taches orange ou rouges sur le dos marron.",
+      "Elle s'ensable moins bien que le turbot. Cherche un léger relief "en forme de goutte" sur le sable plat."
+    ]
+  },
+  { 
+    id: 'La Dorade Grise', 
+    name: 'La Dorade Grise', 
+    scientific: 'Spondyliosoma cantharus',
+    size: '23 cm',
+    desc: '', 
+    imageUrls: ["https://www.fishipedia.fr/wp-content/uploads/2019/06/Spondyliosoma_cantharus_TMe_Fr06_Cap-Antibes_7503.jpg",
+               "https://doriscdn.ffessm.fr/var/doris/storage/images/images/individu-mediterraneen-20947/180585-1-fre-FR/spondyliosoma_cantharus-slb11_image600.jpg",
+               "https://www.mer-littoral.org/34/photos/spondyliosoma-cantharus-0m.jpg",
+               "https://rssm.asso.fr/wp-content/uploads/2012/07/griset-Patzner-R2.jpg"
+               ],
+    tips: [
+      "Si tu en vois une, il y en a souvent des dizaines autour. Elles forment des bancs denses au-dessus des rochers.",
+      "Pose-toi simplement sur le sable à la lisière d'une roche. Elles viendront te tourner autour par curiosité.",
+      "C'est un poisson très nerveux une fois fléché. Assure bien ton tir (vise le milieu du corps) pour éviter qu'elle ne se décroche en s'agitant.",
+      "Les mâles creusent des nids circulaires dans le sable au printemps. Si tu vois des cercles propres sur le fond, évite de tirer le poisson qui "garde" le nid.",
+      "La dorade grise n'a jamais de tache noire à la base de la queue.Au lieu de rayures verticales, elle a souvent des petites lignes jaunâtres ou dorées qui courent horizontalement le long du corps (visibles de très près)."
     ]
   },
   { 
