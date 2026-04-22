@@ -318,9 +318,9 @@ const FISH_BASE_DATA = [
                ],
     tips: [
       "Elle change de couleur instantanément. Cherche une forme ovale posée sur le sable ou les herbiers ; ses deux yeux sont souvent le seul indice.",
-      "Tu peux l'approcher de très près, elle est assez placide. Tire bien entre les deux yeux pour un "séchage" immédiat.",
+      "Tu peux l'approcher de très près, elle est assez placide. Tire bien entre les deux yeux pour un séchage immédiat.",
       "Une fois fléchée, elle va lâcher un nuage d'encre noir. Garde-la à distance de ta combinaison pour ne pas la tacher durablement.",
-      "Nettoie-la en mer pour éviter d'en mettre partout chez toi. Le "blanc" de seiche est délicieux en persillade."
+      "Nettoie-la en mer pour éviter d'en mettre partout chez toi. Le blanc de seiche est délicieux en persillade."
     ]
   },
   { 
@@ -356,7 +356,7 @@ const FISH_BASE_DATA = [
     tips: [
       "Le poisson plat par excellence que tu croiseras sur les grandes étendues de sable entre deux roches",
       "Elle se reconnaît facilement à ses petites taches orange ou rouges sur le dos marron.",
-      "Elle s'ensable moins bien que le turbot. Cherche un léger relief "en forme de goutte" sur le sable plat."
+      "Elle s'ensable moins bien que le turbot. Cherche un léger relief en forme de goutte sur le sable plat."
     ]
   },
   { 
@@ -374,7 +374,7 @@ const FISH_BASE_DATA = [
       "Si tu en vois une, il y en a souvent des dizaines autour. Elles forment des bancs denses au-dessus des rochers.",
       "Pose-toi simplement sur le sable à la lisière d'une roche. Elles viendront te tourner autour par curiosité.",
       "C'est un poisson très nerveux une fois fléché. Assure bien ton tir (vise le milieu du corps) pour éviter qu'elle ne se décroche en s'agitant.",
-      "Les mâles creusent des nids circulaires dans le sable au printemps. Si tu vois des cercles propres sur le fond, évite de tirer le poisson qui "garde" le nid.",
+      "Les mâles creusent des nids circulaires dans le sable au printemps. Si tu vois des cercles propres sur le fond, évite de tirer le poisson qui garde le nid.",
       "La dorade grise n'a jamais de tache noire à la base de la queue.Au lieu de rayures verticales, elle a souvent des petites lignes jaunâtres ou dorées qui courent horizontalement le long du corps (visibles de très près)."
     ]
   },
