@@ -388,7 +388,11 @@ const FISH_BASE_DATA = [
                "https://www.mer-littoral.org/34/photos/scophthalmus-maximus-0m.jpg",
                "https://static.inaturalist.org/photos/59056007/medium.jpeg",
                "https://upload.wikimedia.org/wikipedia/commons/0/0e/Scophthalmidae_Scophthalmus_maximus_2.jpg",
-               "https://www.demonsunglasses.com/cdn/shop/articles/complete-guide-to-turbot-fishing-techniques-equipment-seasons-and-tips_82418b5a-8855-4ec2-b950-b74332788ebd_large.jpg?v=1761120250"
+               "https://cdn.shopify.com/s/files/1/0585/7768/2520/files/guide-to-turbot-fishing_600x600.jpg?v=1761120190",
+               "https://cdn.shopify.com/s/files/1/0585/7768/2520/files/complete-guide-to-turbot-fishing-suggestions_600x600.jpg?v=1761120004",
+               "https://cdn.shopify.com/s/files/1/0585/7768/2520/files/complete-guide-to-turbot-fishing-techniques-equipment-seasons-and-tips_600x600.jpg?v=1761118856",
+               "https://cdn.shopify.com/s/files/1/0585/7768/2520/files/complete-guide-to-turbot-fishing_600x600.jpg?v=1761119078"        
+                
                ],
     tips: [
       "Repérage : Cherche uniquement le contour circulaire ou les deux yeux sur le sable.",
@@ -480,7 +484,7 @@ export default function App() {
             src={fishImage} 
             alt="Cible" 
             className="w-full h-full object-cover"
-            onError={(e) => { e.target.src = "https://via.placeholder.com/800x600?text=Image+Bientôt+Disponible"; }}
+            onError={(e) => { e.target.src = "https://e7.pngegg.com/pngimages/571/543/png-clipart-logo-label-coming-soon-emblem-text.png"; }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div>
         </div>
